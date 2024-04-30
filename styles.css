@@ -1,0 +1,56 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif; /* Change font style to Open Sans */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto; /* Center the container vertically */
+    padding: 30px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px; /* Increase font size */
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: calc(100% - 110px);
+    padding: 10px;
+    font-size: 16px; /* Increase font size */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px; /* Increase font size */
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
